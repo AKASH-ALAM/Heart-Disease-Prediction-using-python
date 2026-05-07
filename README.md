@@ -45,33 +45,33 @@ The dataset contains clinical and non-invasive test results of various patients.
 13. `thal`: Thalassemia (0-3)
 14. `target`: Presence of heart disease (1 = Disease, 0 = No Disease)
 
+![Target Variable Distribution](docs/target_dis.png)
+
 ---
 
 ## 📈 5. Exploratory Data Analysis (EDA)
-
-*(Note: Add your actual plot images to a `docs/` or `images/` folder and update the image paths below to visualize them directly on GitHub!)*
 
 Understanding the data is key. In our Jupyter Notebook (`Heart_Disease.ipynb`), various visualizations were created to understand feature relationships:
 
 ### 🔹 Correlation Heatmap
 The heatmap shows how strongly each feature correlates with the target. Features like `cp` (chest pain), `thalach` (max heart rate), and `slope` show positive correlations, while `exang` and `oldpeak` show strong negative correlations.
-> `![Heatmap Placeholder](docs/heatmap.png)`
+> `![Correlation Heatmap]`(docs/heatmap.png)
 
 ### 🔹 Histograms & Data Distribution
 Histograms help us understand the age distribution, blood pressure spread, and cholesterol levels of our patient data. 
-> `![Histogram Placeholder](docs/histogram.png)`
+> `![Histograms & Data Distribution]`(docs/histogram.png)
 
 ### 🔹 Boxplots (Outlier Detection)
 Boxplots were utilized to visualize continuous variables (`trestbps`, `chol`, `thalach`) and identify potential outliers before scaling the data.
-> `![Boxplot Placeholder](docs/boxplot.png)`
+> `![Boxplots (Outlier Detection)]`(docs/boxplot.png)
 
 ### 🔹 Feature Importances
 This visualizes which clinical tests are the most critical in determining heart disease presence. 
-> `![Feature Importance Placeholder](docs/feature_importance.png)`
+> `![Feature Importances]`(docs/feature_importance.png)
 
 ### 🔹 Diagnostic Prediction Report 
 The terminal application generates a highly readable and intuitive Diagnostic Report detailing the calculated probabilities for the patient.
-
+> `![Diagnostic Prediction Report]`(docs/report.png)
 ---
 
 ## 🧠 6. Which Model I Used and Why
