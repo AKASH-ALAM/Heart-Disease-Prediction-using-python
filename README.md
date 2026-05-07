@@ -55,23 +55,23 @@ Understanding the data is key. In our Jupyter Notebook (`Heart_Disease.ipynb`), 
 
 ### 🔹 Correlation Heatmap
 The heatmap shows how strongly each feature correlates with the target. Features like `cp` (chest pain), `thalach` (max heart rate), and `slope` show positive correlations, while `exang` and `oldpeak` show strong negative correlations.
-> `![Correlation Heatmap]`(docs/heatmap.png)
+>![Correlation Heatmap](docs/heatmap.png)
 
 ### 🔹 Histograms & Data Distribution
 Histograms help us understand the age distribution, blood pressure spread, and cholesterol levels of our patient data. 
-> `![Histograms & Data Distribution]`(docs/histogram.png)
+![Histograms & Data Distribution](docs/histogram.png)
 
 ### 🔹 Boxplots (Outlier Detection)
 Boxplots were utilized to visualize continuous variables (`trestbps`, `chol`, `thalach`) and identify potential outliers before scaling the data.
-> `![Boxplots (Outlier Detection)]`(docs/boxplot.png)
+![Boxplots (Outlier Detection)](docs/boxplot.png)
 
 ### 🔹 Feature Importances
 This visualizes which clinical tests are the most critical in determining heart disease presence. 
-> `![Feature Importances]`(docs/feature_importance.png)
+![Feature Importances](docs/feature_importance.png)
 
 ### 🔹 Diagnostic Prediction Report 
 The terminal application generates a highly readable and intuitive Diagnostic Report detailing the calculated probabilities for the patient.
-> `![Diagnostic Prediction Report]`(docs/report.png)
+![Diagnostic Prediction Report](docs/report.png)
 ---
 
 ## 🧠 6. Which Model I Used and Why
