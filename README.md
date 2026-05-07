@@ -66,11 +66,12 @@ Boxplots were utilized to visualize continuous variables (`trestbps`, `chol`, `t
 ![Boxplots (Outlier Detection)](docs/boxplot.png)
 
 ### 🔹 Feature Importances
-This visualizes which clinical tests are the most critical in determining heart disease presence. 
+This visualizes which clinical tests are the most critical in determining the presence of heart disease. 
 ![Feature Importances](docs/feature_importance.png)
 
-### 🔹 Diagnostic Prediction Report 
+### 🔹 Diagnostic Prediction Report
 The terminal application generates a highly readable and intuitive Diagnostic Report detailing the calculated probabilities for the patient.
+
 ![Diagnostic Prediction Report](docs/report.png)
 ---
 
