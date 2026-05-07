@@ -72,7 +72,7 @@ This visualizes which clinical tests are the most critical in determining the pr
 ### 🔹 Diagnostic Prediction Report
 The terminal application generates a highly readable and intuitive Diagnostic Report detailing the calculated probabilities for the patient.
 
-![Diagnostic Prediction Report](docs/report.png)
+
 ---
 
 ## 🧠 6. Which Model I Used and Why
@@ -112,3 +112,6 @@ python predict.py
 - The script automatically scales the input based on the saved `scaler`.
 - Evaluates the patient against the `SVM model`.
 - Prints a structured **Diagnostic Prediction Report** with exact probabilities.
+
+
+![Diagnostic Prediction Report](docs/report.png)
